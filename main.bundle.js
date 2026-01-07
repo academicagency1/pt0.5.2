@@ -47739,34 +47739,7 @@
         return ((n = t + n), n);
       }
       function jT() {
-        let e;
-        switch (mu) {
-          case "kodub":
-          case "jest":
-            e = [/\.kodub\.com$/];
-            break;
-          case "electron":
-          case "capacitor":
-            return !1;
-          case "itch":
-            e = [/itch\.io$/, /itch\.zone$/];
-            break;
-          case "armorgames":
-            e = [/^19464\.cache\.armorgames\.com$/];
-            break;
-          case "gato":
-            e = [/^gato-files-prod\.s3\.amazonaws\.com$/];
-            break;
-          case "crazygames":
-            e = [/\.crazygames\.com$/];
-            break;
-          case "poki":
-            e = [/\.poki\.com$/, /\.poki-gdn\.com$/];
-            break;
-          case "y8":
-            e = [/\.y8\.com$/];
-        }
-        return !e.some((e) => e.test(location.hostname));
+        return !1;
       }
       function QT() {
         let e;
@@ -53589,22 +53562,11 @@
         (gN = function (e) {
           kN(this, JD, "f").innerHTML = "";
           const t = document.createElement("a");
-          ((t.href = "https://www.kodub.com"),
+          ((t.href = "https://opengameart.org/content/sci-fi-theme-1"),
             (t.target = "_blank"),
-            (t.textContent = "kodub.com - " + e.get("Version") + " " + bu),
-            kN(this, JD, "f").appendChild(t));
-          const n = document.createElement("a");
-          ((n.href = "https://opengameart.org/content/sci-fi-theme-1"),
-            (n.target = "_blank"),
-            (n.textContent =
+            (t.textContent =
               'OpenGameArt.org "Sci-fi Theme" by Maou (CC-BY 4.0)'),
-            kN(this, JD, "f").appendChild(n),
-            kN(this, JD, "f").appendChild(document.createElement("br")));
-          const i = document.createElement("a");
-          ((i.href = "https://www.kodub.com/privacy/polytrack"),
-            (i.target = "_blank"),
-            (i.textContent = "Privacy Policy"),
-            kN(this, JD, "f").appendChild(i));
+            kN(this, JD, "f").appendChild(t));
         }),
         (vN = function () {
           var e;
@@ -53710,22 +53672,7 @@
               kN(this, GD, "m", fN).call(this, e, t, s, c, a, d, o, l, m, g),
               "f",
             ));
-          {
-            (xN(this, ZD, document.createElement("a"), "f"),
-              (kN(this, ZD, "f").className = "discord-link"),
-              (kN(this, ZD, "f").href =
-                "https://www.kodub.com/discord/polytrack"),
-              (kN(this, ZD, "f").target = "_blank"),
-              kN(this, YD, "f").appendChild(kN(this, ZD, "f")));
-            const e = document.createElement("img");
-            (i.hasLoaded() ||
-              (e.classList.add("hidden"),
-              e.addEventListener("load", () => {
-                e.classList.remove("hidden");
-              })),
-              (e.src = "images/discord.svg"),
-              kN(this, ZD, "f").appendChild(e));
-          }
+          {}
           (xN(this, JD, document.createElement("div"), "f"),
             (kN(this, JD, "f").className = "info"),
             kN(this, YD, "f").appendChild(kN(this, JD, "f")),
