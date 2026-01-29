@@ -53816,7 +53816,7 @@
             kN(this, YD, "f").appendChild(kN(this, cN, "f")),
             (() => {
               const q = document.createElement("a");
-              (q.href = "https://htmlunblockedgames.github.io/chatboard"),
+              (q.href = "https://google.com"),
                 (q.target = "_blank"),
                 (q.rel = "noopener noreferrer"),
                 q.setAttribute("aria-label", "Open chatboard"),
