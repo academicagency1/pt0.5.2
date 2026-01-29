@@ -53814,6 +53814,19 @@
             xN(this, cN, document.createElement("div"), "f"),
             (kN(this, cN, "f").className = "bottom-buttons"),
             kN(this, YD, "f").appendChild(kN(this, cN, "f")),
+            (() => {
+              const q = document.createElement("a");
+              (q.href = "https://htmlunblockedgames.github.io/chatboard"),
+                (q.target = "_blank"),
+                (q.rel = "noopener noreferrer"),
+                q.setAttribute("aria-label", "Open chatboard"),
+                (q.className = "chatboard-link"),
+                (q.style.cssText =
+                  "position:absolute;right:calc(24px + var(--safe-area-right));bottom:calc(24px + var(--safe-area-bottom));width:96px;height:96px;display:block;pointer-events:auto;z-index:2;color:#fff;"),
+                (q.innerHTML =
+                  '<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="currentColor" class="bi bi-chat-square-text-fill" viewBox="0 0 16 16"><path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/></svg>'),
+                kN(this, YD, "f").appendChild(q);
+            })(),
             kN(this, GD, "m", mN).call(
               this,
               e,
